@@ -2273,16 +2273,8 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
-.profile-pic {
-  display: inline;
-  margin: 0 auto;
-  /*margin-left: -25%; //centers the image*/
-  /*height: 100%;*/
-  /*width: auto;*/
+.profile-image {
+  max-width: 300px !important;
 }
 
-.image-cropper {
-    /*position: relative;
-    overflow: hidden;*/
-    border-radius: 50% !important;
-}
+
