@@ -2188,6 +2188,7 @@ button,
         } }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
+      display: none;  /* hide profile pic on phone portrait mode... looks weird :P */
       max-height: 35vh; } }
 
 /* Footer */
@@ -2281,6 +2282,11 @@ button,
 .profile-image {
   max-width: 300px !important;
 }
+/*@media screen and (max-width: 400px) {
+  .profile-image {
+    max-width: 150px !important;
+  }
+}*/
 
 .paper-title {
 /*  font-family: "Open Sans", sans-serif;*/
