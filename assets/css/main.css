@@ -1,7 +1,7 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Noto+Serif+JP:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic");
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -2289,8 +2289,6 @@ button,
 }*/
 
 .paper-title {
-/*  font-family: "Open Sans", sans-serif;*/
-/*  font-family: "Noto Serif JP", serif;*/
   font-weight: 400;
   font-size: 1em;
 }
